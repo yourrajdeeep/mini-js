@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nunito;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+#nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+#nav-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#nav h3 {
+    font-size: 17px;
+    font-family: 500;
+    padding: 5px 8px;
+}
+
+button {
+    padding: 10px 25px;
+    border: 1.5px solid #21d81e;
+    border-radius: 50px;
+    font-size: 14px;
+    background-color: #21d81e;
+    
+}
+
+#banner {
+    height: 70%;
+    width: 95%;
+    /* background-color: #21d81e; */
+    /* border: 2px solid black; */
+    border-radius: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(https://images.unsplash.com/photo-1510535043828-3d1edc68071e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#banner-txt {
+    height: 100%;
+    width: 30%;
+    color: #ffffff;
+    position: absolute;
+    left: 6%;
+    top: 12%;
+}
+
+#banner-top h2 {
+    font-size: 50px;
+    line-height: 50px;
+    padding: 10px;
+}
+
+#banner-top p {
+    color: #c0baba;
+    padding: 10px;
+}
+
+#banner-center {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 15px;
+}
+
+#banner-center h4 {
+    font-size: 16px;
+}
+
+#banner-btm {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+}
+
+.elem h3{
+    font-size: 28px;
+}
+
+.elem h4{
+    font-size: 12px;
+}
+
+#btm {
+    height: 35%;
+    width: 100%;
+    padding: 0px 150px;
+}
+
+#btm h2 {
+    font-size: 50px;
+}
+
+#btm-part2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#btm-left {
+    width: 28%;
+}
+
+#btm-center {
+    width: 27%;
+}
+
+.menu:hover {
+    cursor: pointer;
+    color: #21d81e;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: #21d81e;
+    border: 2px solid #21d81e00;
+}

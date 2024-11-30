@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background: #bfa6ac;
+    display: flex;
+}
+
+#nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+    /* background-color: red; */
+    left: 18%;
+    top: 8%;
+}
+
+#nav h5 {
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 400        ;
+}
+
+#part1 {
+    height: 100%;
+    width: 26%;
+    /* background-color: red; */
+}
+
+#part2 {
+    height: 100%;
+    width: 67%;
+    /* background-color: green; */
+    background-image: url(https://images.unsplash.com/photo-1539614474468-f423a2d2270c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: hsla(340, 10%, 24%, 0.438);
+}
+
+#part3 {
+    height: 100%;
+    width: 7%;
+    /* background-color: blue; */
+}
+
+#txt-div {
+    color: #ffffff;
+    /* height: 300px; */
+    position: absolute;
+    width: 400px;
+    /* background-color: red; */
+    top: 50%;
+    left: 7%;
+    transform: translate(0, -50%);
+}
+
+#txt-div h1 {
+    font-family: "Alfa Slab One", serif;
+    font-size: 80px;
+    line-height: 78px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+#small-img {
+    height: 400px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+    background-image: url(https://images.unsplash.com/photo-1524504542391-127872011665?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: top;
+}
+
+#vertical-txt {
+    position: absolute;
+    right: -40%;
+    top: 2%;
+    
+    /* width: 100%; */
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    
+}
+
+#vertical-txt h1 {
+    color: transparent;
+    font-size: 56px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 100;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    letter-spacing: 15px;
+    
+}
