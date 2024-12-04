@@ -9,12 +9,14 @@
 </head>
 <body>
     <div class="stopwatch">
-        <h1>00:00:00</h1>
+        <h1 id="displayTime">00:00:00</h1>
         <div class="buttons">
-            <i class="ri-stop-fill"></i>
-            <!-- <i class="ri-reset-left-fill"></i> -->
-            <i class="ri-play-fill"></i>
+            <i class="ri-stop-fill" onclick="watchStop()"></i>
+            <i class="ri-play-fill" onclick="watchStart()"></i>
+            <i class="ri-reset-left-fill" onclick="watchReset()"></i>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
